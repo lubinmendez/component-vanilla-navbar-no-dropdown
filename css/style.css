@@ -48,6 +48,17 @@ body {
   display: flex;
 }
 
+.mobile-menu {
+  list-style: none;
+}
+
+.mobile-menu a {
+  text-decoration: none;
+}
+
+.mobile-menu a:visited {
+  color: black;
+}
 
 
 
