@@ -44,7 +44,8 @@
 
 .mobile-menu a {
   display: inline-block;
-  padding: 15px 0;
+  padding: 5px 0;
+  margin: 10px 0;
   border-bottom: 3px solid transparent;
   transition: border-color 0.2s ease;
 }
@@ -52,6 +53,8 @@
 .mobile-menu a:hover {
   border-bottom: 3px solid var(--background-color-tertiary);
 }
+
+/* tablet-desktop */
 
 .tablet-desktop-menu {
   display: flex;
