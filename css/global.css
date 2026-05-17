@@ -24,3 +24,7 @@ a {
 a:visited {
   color: var(--color-primary);
 }
+
+ul {
+  list-style: none;
+}
