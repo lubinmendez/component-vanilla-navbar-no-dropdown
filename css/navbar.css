@@ -27,6 +27,8 @@
   font-weight: var(--font-weight-bold);
   font-size: var(--font-size-l);
   background-color: var(--background-color-secondary);
+  background-color: var(--color-secondary);
+
 
   /* layout & positioning*/
   display: flex;
@@ -47,11 +49,11 @@
 }
 
 .mobile-menu.show {
-  transform: translateX(0%);
+  transform: translateX(0%); /* Moves menu from off-screen to visible position */
 }
 
 .mobile-menu a {
-  display: inline-block;
+  display: inline-block; /* Makes border match text width instead of full row width */
   padding: 5px 0;
   margin: 10px 0;
   border-bottom: 3px solid transparent; /* Keeps layout stable when hover border appears */
@@ -72,7 +74,7 @@
 }
 
 .tablet-desktop-menu a {
-  display: inline-block;
+  display: inline-block; /* Makes border match text width instead of full row width */
   padding: 5px 0;
   border-bottom: 3px solid transparent;
   transition: border-color 0.2s ease;
