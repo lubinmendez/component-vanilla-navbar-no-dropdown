@@ -101,7 +101,9 @@
 
 /* 768... */
 @media (min-width: 768px) {
-  .menu-hamburguer-button {
-    display: none;
+  .menu-hamburguer-button,
+  .mobile-menu {
+    display: none; 
+    /* Hide hamburger button and mobile menu on desktop screens. In the case of the mobile menu, this prevents it from remaining visible after resizing from mobile to desktop. */
   }
 }
