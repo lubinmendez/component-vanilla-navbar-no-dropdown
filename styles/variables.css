@@ -1,4 +1,5 @@
 :root {
+  /* typography: */
   --font-family-primary: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
   --font-weight-regular: 400;
@@ -9,20 +10,28 @@
   --font-size-l: 1.5rem;   /* 24px */
   --font-size-xl: 3rem;    /* 48px */
 
-  --color-primary: #19191b;
-  --color-secondary: #6a6a70;
-  --color-tertiary: #898787;
+  /* Colors: */
+  --color-primary: #fff; /* 60% base background */
+  --color-secondary: #EAEAEA; /* 30% surface */
+  --color-tertiary: #00d180; /* 10% accent */
+  --color-tertiary-dark: #00B06B;
+  --color-tertiary-darker: #058d65;
+  --color-tertiary-light: #E5FAEF;
 
-  --background-color-primary: #fcfcfc; /* 60% base background */
-  --background-color-secondary: #f5f5f7; /* 30% surface */
-  --background-color-tertiary: #ef7833; /* 10% accent */
-  --background-color-hover: #E66C27;
-  --background-color-new-function: #AF94FF;
-  --background-color-error:  rgb(241, 38, 38);
-  --background-color-success:  rgb(6, 185, 6);
+  --color-neutral-100: #ffffff;
+  --color-neutral-200: #f3f4f6;
+  --color-neutral-400: #8b8d98;
+  --color-neutral-600: #5f6470;
+  --color-neutral-900: #18181b;
 
-  --navbar-height: 3.5rem;
-  /* This variable is used for both navbar height and body padding to prevent content from being hidden behind the fixed navbar.
-   It is also used with scroll-padding-top to prevent anchor links from scrolling behind the fixed navbar. */
+  --color-new-function: #AF94FF;
+  --color-error: #e5484d;
+  --color-success: #22a06b;
+
+  /* Layout */
+  --bar-height: 3.5rem;
+  /* For the navbar, this variable is used for both navbar height and body padding to prevent content from being hidden behind the fixed navbar.
+  It is also used with scroll-padding-top to prevent anchor links from scrolling behind the fixed navbar.
+  It can also be used for other components such as footers or similar layout elements. */
 }
 
